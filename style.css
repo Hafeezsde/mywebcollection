@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 100px 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.box{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.box a h3{
+    margin-top: 8px;
+}
+.box:hover{
+    margin-top: 16px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+}
