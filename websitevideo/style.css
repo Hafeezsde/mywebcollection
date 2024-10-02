@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+body{
+    background: #000;
+    font-family: "Lobster", sans-serif;
+}
+video{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1; 
+}
+@media(min-aspect-ratio:16/9){
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+.container{
+    margin: 0px 128px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px
+}
+.header h2{
+    font-size: 32px
+}
+.navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar a{
+    font-size: 20px;
+    color: #000;
+    transition: 1s;
+}
+.navbar a:hover{
+    color: aliceblue;
+}
+.hero{
+    height: 80vh;
+    display: flex;
+}
+.text-box{
+    align-content: center;
+}
+.text-box h2{
+    font-size: 32px;
+}
+.text-box h2 span{
+    color:aliceblue;
+}
+.btn{
+    margin-top: 20px
+}
+.btn button{
+    font-family: "Lobster", sans-serif;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    transition: 1s;
+}
+.btn button:hover{
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+}
+.social{
+    margin-top: 20px;
+}
+.social i{
+    font-size: 36px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+
